@@ -1,9 +1,0 @@
-
-<section class="blox columns">
-  <div class="grid gap-8 md:grid-cols-{{ default 3 .Params.design.columns }}">
-    {{/* Iterate through nested `sections:` in front-matter */}}
-    {{ range .Params.sections }}
-      {{ partial (printf "blox/%s.html" .block) (merge . $.Ctx) }}
-    {{ end }}
-  </div>
-</section>

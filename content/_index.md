@@ -29,12 +29,6 @@ sections:
     design:
       columns: 1
 
-  - block: resume-volunteering    # VOLUNTEER column
-    content:
-      username: admin
-      title: "Volunteer"
-    design:
-      columns: 1
 
   - block: collection
     id: papers
