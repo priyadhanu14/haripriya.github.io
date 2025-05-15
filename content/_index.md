@@ -31,6 +31,15 @@ sections:
           position: center
           parallax: false
 
+   # 2) EXPERIENCE  ← new!
+  - block: resume-experience      # or -1 / -3 for other layouts
+    content:
+      username: admin
+      title: "Experience"
+      subtitle: ""                  # optional
+    design:
+      columns: 1                    # 1 = vertical timeline, 2 = two-column
+
   - block: collection
     id: papers
     content:
