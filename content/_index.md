@@ -9,7 +9,7 @@ design:
   spacing: "6rem"
 
 sections:
-  - block: columns                         # wrap children in a 3-column Tailwind grid
+  - block: grid                         # wrap children in a 3-column Tailwind grid
     design:
       css_class: "grid md:grid-cols-3 gap-6"   # 1 col on mobile → 3 on md+
     content:
