@@ -22,14 +22,6 @@ sections:
     design:
       columns: 1                  # vertical timeline in this column
 
-  - block: resume-education       # EDUCATION column
-    content:
-      username: admin
-      title: "Education"
-    design:
-      columns: 1
-
-
   - block: collection
     id: papers
     content:
