@@ -45,7 +45,7 @@ profiles:
   #   url: https://scholar.google.com/
   # - icon: academicons/orcid
   #   url: https://orcid.org/
-L
+
 interests:
   - Artificial Intelligence / Machine Learning
   - Explainable AI
