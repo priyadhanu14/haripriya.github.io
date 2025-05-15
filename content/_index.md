@@ -9,36 +9,32 @@ design:
   spacing: "6rem"
 
 sections:
-  - block: resume-biography-3
-    content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
-      text: ""
-      # Show a call-to-action button (optional)
-      button:
-        text: "Download CV"
-        url: "uploads/resume.pdf"
+  - block: grid                         # wrap children in a 3-column Tailwind grid
     design:
-      css_class: dark
-      background:
-        color: black
-        image:
-          # Add your background image to `assets/media/`.
-          filename: stacked-peaks.svg
-          filters:
-            brightness: 1.0
-          size: cover
-          position: center
-          parallax: false
+      css_class: "grid md:grid-cols-3 gap-6"   # 1 col on mobile → 3 on md+
+    content:
+      blocks:                           # children rendered in the order below
 
-   # 2) EXPERIENCE  ← new!
-  - block: resume-experience      # or -1 / -3 for other layouts
+  - block: resume-experience      # EXPERIENCE column
+    content:
+       username: admin
+       title: "Experience"
+    design:
+      columns: 1                  # vertical timeline in this column
+
+  - block: resume-education       # EDUCATION column
     content:
       username: admin
-      title: "Experience"
-      subtitle: ""                  # optional
+      title: "Education"
     design:
-      columns: 1                    # 1 = vertical timeline, 2 = two-column
+      columns: 1
+
+  - block: resume-volunteering    # VOLUNTEER column
+    content:
+      username: admin
+      title: "Volunteer"
+    design:
+      columns: 1
 
   - block: collection
     id: papers
