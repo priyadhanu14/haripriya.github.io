@@ -9,11 +9,39 @@ design:
   spacing: "6rem"
 
 sections:
-  - block: Collection                         # wrap children in a 3-column Tailwind grid
-    design:
-      css_class: "grid md:grid-cols-3 gap-6"   # 1 col on mobile → 3 on md+
+  - block: resume-biography-3
     content:
-      blocks:                           # children rendered in the order below
+      # Choose a user profile to display (a folder name within `content/authors/`)
+      username: admin
+      text: ""
+      # Show a call-to-action button under your biography? (optional)
+      button:
+        text: Download CV
+        url: uploads/resume.pdf
+    design:
+      css_class: ""
+      background:
+        color: ""
+        image:
+          # Add your image background to `assets/media/`.
+          filename: nn-hero.gif
+          filters:
+            brightness: 1.0
+          size: cover
+          position: center
+          parallax: false
+        # html: |              # <— custom HTML background
+        #   <div class="absolute inset-0 -z-10 overflow-hidden">
+        #     <!-- For Lottie -->
+        #     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        #     <lottie-player
+        #       autoplay
+        #       loop
+        #       mode="normal"
+        #       src="/media/nn-hero.gif"   <!-- or /media/nn-hero.svg -->
+        #       style="width:100%;height:100%;object-fit:cover">
+        #     </lottie-player>
+        #   </div>
 
   - block: resume-experience      # EXPERIENCE column
     content:
