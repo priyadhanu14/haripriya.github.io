@@ -9,6 +9,7 @@ design:
   spacing: "6rem"
 
 sections:
+
   - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
@@ -19,14 +20,13 @@ sections:
         text: Download CV
         url: uploads/resume.pdf
     design:
-      css_class: ""
       background:
-        color: ""
+      
         image:
           # Add your image background to `assets/media/`.
           filename: nn-hero.gif
-          filters:
-            brightness: 1.0
+          # filters:
+          #   brightness: 1.0
           size: cover
           position: center
           parallax: false
@@ -53,7 +53,7 @@ sections:
   - block: collection
     id: papers
     content:
-      title: "Featured Publications"
+      title: "Research Publications"
       filters:
         folders:
           - publication

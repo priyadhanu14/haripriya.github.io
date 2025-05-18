@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PyTorch Geometric, Graph Neural Networks | Hugo Academic CV Theme</title>
+    <link>http://localhost:1313/tags/pytorch-geometric-graph-neural-networks/</link>
+      <atom:link href="http://localhost:1313/tags/pytorch-geometric-graph-neural-networks/index.xml" rel="self" type="application/rss+xml" />
+    <description>PyTorch Geometric, Graph Neural Networks</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>PyTorch Geometric, Graph Neural Networks</title>
+      <link>http://localhost:1313/tags/pytorch-geometric-graph-neural-networks/</link>
+    </image>
+    
+    <item>
+      <title>Neural Brain graph analysis for Burst trigger pattern</title>
+      <link>http://localhost:1313/project/neural_graph/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/neural_graph/</guid>
+      <description>&lt;p&gt;Developed a sub-graph classifier using Graph Neural Networks that identifies network burst patterns with an 90 % detection accuracy.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

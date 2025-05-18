@@ -193,4 +193,6 @@ languages:
 
 ## About Me
 
-Haripriya Dhanasekaran is a master’s candidate in Computer Science & Software Engineering at the University of Washington Bothell, where she builds Graph Neural Networks that learn spike-timing data to uncover burst dynamics in large-scale neural recordings. Her work sits at the intersection of computational neuroscience, scalable deep learning, and has produced multi-node pipelines that cut data-processing times from hours to minutes. Outside the lab, she mentors 80 + students as a Java & Data-Structures teaching assistant.
+Haripriya Dhanasekaran is a master’s candidate in Computer Science & Software Engineering at the University of Washington Bothell, where she builds Graph Neural Networks that learn spike-timing data to uncover burst dynamics in large-scale neural recordings. 
+Her work sits at the intersection of computational neuroscience, scalable deep learning, and has produced multi-node pipelines that cut data-processing times from hours to minutes. 
+Outside the lab, she mentors 80 + students as a Java & Data-Structures teaching assistant.

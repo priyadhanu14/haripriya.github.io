@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python, CNN, GradCAM | Hugo Academic CV Theme</title>
+    <link>http://localhost:35935/tags/python-cnn-gradcam/</link>
+      <atom:link href="http://localhost:35935/tags/python-cnn-gradcam/index.xml" rel="self" type="application/rss+xml" />
+    <description>Python, CNN, GradCAM</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:35935/media/icon_hu_645fa481986063ef.png</url>
+      <title>Python, CNN, GradCAM</title>
+      <link>http://localhost:35935/tags/python-cnn-gradcam/</link>
+    </image>
+    
+    <item>
+      <title>Vulnerability Detection in Software Code using Deep Neural Network</title>
+      <link>http://localhost:35935/project/vul_detection/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:35935/project/vul_detection/</guid>
+      <description>&lt;p&gt;Vulnerability detection system is a web-based product that was built using python flask and Convolutional Neural Networks (CNN). It focuses on accurately identifying 10+ vulnerability classes in software code.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

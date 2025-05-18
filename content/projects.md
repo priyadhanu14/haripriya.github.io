@@ -11,8 +11,8 @@ design:
 sections:
   - block: collection
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      title: Projects
+      text: Below is a selection of projects I completed during my undergraduate and master’s studies. 
       filters:
         folders:
           - project

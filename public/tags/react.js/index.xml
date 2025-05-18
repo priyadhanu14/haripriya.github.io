@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>React.js, | Hugo Academic CV Theme</title>
+    <link>http://localhost:1313/tags/react.js/</link>
+      <atom:link href="http://localhost:1313/tags/react.js/index.xml" rel="self" type="application/rss+xml" />
+    <description>React.js,</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>React.js,</title>
+      <link>http://localhost:1313/tags/react.js/</link>
+    </image>
+    
+    <item>
+      <title>College Portal</title>
+      <link>http://localhost:1313/project/college_portal/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/college_portal/</guid>
+      <description>&lt;p&gt;Student Portal provides a simple interface for the maintenance of student information that can be used by our college to maintain the records of students easily.
+Apart from storing the general information about a student, the student portal provides options for recording activities undertaken by the student such as internships, sports activities and so on. Different reports and queries can be generated based on vast options related to students, batch, course, faculty, exams, certification and even the entire college.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
