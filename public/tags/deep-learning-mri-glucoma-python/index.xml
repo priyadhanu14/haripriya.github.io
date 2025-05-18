@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deep Learning, MRI, Glucoma, Python | Hugo Academic CV Theme</title>
-    <link>http://localhost:35935/tags/deep-learning-mri-glucoma-python/</link>
-      <atom:link href="http://localhost:35935/tags/deep-learning-mri-glucoma-python/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:43259/tags/deep-learning-mri-glucoma-python/</link>
+      <atom:link href="http://localhost:43259/tags/deep-learning-mri-glucoma-python/index.xml" rel="self" type="application/rss+xml" />
     <description>Deep Learning, MRI, Glucoma, Python</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:35935/media/icon_hu_645fa481986063ef.png</url>
+      <url>http://localhost:43259/media/icon_hu_645fa481986063ef.png</url>
       <title>Deep Learning, MRI, Glucoma, Python</title>
-      <link>http://localhost:35935/tags/deep-learning-mri-glucoma-python/</link>
+      <link>http://localhost:43259/tags/deep-learning-mri-glucoma-python/</link>
     </image>
     
     <item>
       <title>Automated Laboratory Test Analysis using Deep Learning</title>
-      <link>http://localhost:35935/project/alta/</link>
+      <link>http://localhost:43259/project/alta/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:35935/project/alta/</guid>
+      <guid>http://localhost:43259/project/alta/</guid>
       <description>&lt;p&gt;Automated Lab-Insight Platform – a diagnostic-support tool that streamlines laboratory workflows and cuts reporting time. The web dashboard ingests test results, auto-generates regulatory-compliant reports, and stores them in a unified repository. Built-in models flag medication-order anomalies and deliver high-accuracy screening for glaucoma and Alzheimer’s, helping clinicians catch errors early and ensure safer, faster diagnoses.&lt;/p&gt;</description>
     </item>
     

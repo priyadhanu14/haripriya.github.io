@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | Hugo Academic CV Theme</title>
-    <link>http://localhost:35935/publication/</link>
-      <atom:link href="http://localhost:35935/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:43259/publication/</link>
+      <atom:link href="http://localhost:43259/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Feb 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:35935/media/icon_hu_645fa481986063ef.png</url>
+      <url>http://localhost:43259/media/icon_hu_645fa481986063ef.png</url>
       <title>Publications</title>
-      <link>http://localhost:35935/publication/</link>
+      <link>http://localhost:43259/publication/</link>
     </image>
     
     <item>
       <title>APPLICATIONS OF ARTIFICIAL INTELLIGENCE IN MANUFACTURING : A REVIEW</title>
-      <link>http://localhost:35935/publication/conference/</link>
+      <link>http://localhost:43259/publication/conference/</link>
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:35935/publication/conference/</guid>
+      <guid>http://localhost:43259/publication/conference/</guid>
       <description>&lt;!-- 
 This work is driven by the results in my [previous paper](/publication/conference-paper/) on LLMs.
 
@@ -42,9 +42,9 @@ Add the publication&#39;s **full text** or **supplementary notes** here. You can
     
     <item>
       <title>MRI Super-Resolution using Generative Adversarial Network and Discrete Wavelet Transform</title>
-      <link>http://localhost:35935/publication/conference-paper/</link>
+      <link>http://localhost:43259/publication/conference-paper/</link>
       <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:35935/publication/conference-paper/</guid>
+      <guid>http://localhost:43259/publication/conference-paper/</guid>
       <description>&lt;!-- 
 
 

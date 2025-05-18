@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wowchemy | Hugo Academic CV Theme</title>
-    <link>http://localhost:35935/tags/wowchemy/</link>
-      <atom:link href="http://localhost:35935/tags/wowchemy/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:43259/tags/wowchemy/</link>
+      <atom:link href="http://localhost:43259/tags/wowchemy/index.xml" rel="self" type="application/rss+xml" />
     <description>Wowchemy</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:35935/media/icon_hu_645fa481986063ef.png</url>
+      <url>http://localhost:43259/media/icon_hu_645fa481986063ef.png</url>
       <title>Wowchemy</title>
-      <link>http://localhost:35935/tags/wowchemy/</link>
+      <link>http://localhost:43259/tags/wowchemy/</link>
     </image>
     
     <item>
       <title>Automated Laboratory Test Analysis using Deep Learning</title>
-      <link>http://localhost:35935/project/alta/</link>
+      <link>http://localhost:43259/project/alta/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:35935/project/alta/</guid>
+      <guid>http://localhost:43259/project/alta/</guid>
       <description>&lt;p&gt;Automated Lab-Insight Platform – a diagnostic-support tool that streamlines laboratory workflows and cuts reporting time. The web dashboard ingests test results, auto-generates regulatory-compliant reports, and stores them in a unified repository. Built-in models flag medication-order anomalies and deliver high-accuracy screening for glaucoma and Alzheimer’s, helping clinicians catch errors early and ensure safer, faster diagnoses.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>College Portal</title>
-      <link>http://localhost:35935/project/college_portal/</link>
+      <link>http://localhost:43259/project/college_portal/</link>
       <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:35935/project/college_portal/</guid>
+      <guid>http://localhost:43259/project/college_portal/</guid>
       <description>&lt;p&gt;Student Portal provides a simple interface for the maintenance of student information that can be used by our college to maintain the records of students easily.
 Apart from storing the general information about a student, the student portal provides options for recording activities undertaken by the student such as internships, sports activities and so on. Different reports and queries can be generated based on vast options related to students, batch, course, faculty, exams, certification and even the entire college.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Auto ML</title>
-      <link>http://localhost:35935/project/auto_ml/</link>
+      <link>http://localhost:43259/project/auto_ml/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:35935/project/auto_ml/</guid>
+      <guid>http://localhost:43259/project/auto_ml/</guid>
       <description>&lt;p&gt;AutoML, or Automated Machine Learning, is a project that focuses on streamlining the process of building machine learning models.
 The ability to automatically train, tune and deploy a model allows businesses to gain actionable insights from data and make better decisions faster.&lt;/p&gt;</description>
     </item>

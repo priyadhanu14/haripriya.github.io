@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Paper-Conference | Hugo Academic CV Theme</title>
-    <link>http://localhost:35935/publication_types/paper-conference/</link>
-      <atom:link href="http://localhost:35935/publication_types/paper-conference/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:43259/publication_types/paper-conference/</link>
+      <atom:link href="http://localhost:43259/publication_types/paper-conference/index.xml" rel="self" type="application/rss+xml" />
     <description>Paper-Conference</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 16 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:35935/media/icon_hu_645fa481986063ef.png</url>
+      <url>http://localhost:43259/media/icon_hu_645fa481986063ef.png</url>
       <title>Paper-Conference</title>
-      <link>http://localhost:35935/publication_types/paper-conference/</link>
+      <link>http://localhost:43259/publication_types/paper-conference/</link>
     </image>
     
     <item>
       <title>MRI Super-Resolution using Generative Adversarial Network and Discrete Wavelet Transform</title>
-      <link>http://localhost:35935/publication/conference-paper/</link>
+      <link>http://localhost:43259/publication/conference-paper/</link>
       <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:35935/publication/conference-paper/</guid>
+      <guid>http://localhost:43259/publication/conference-paper/</guid>
       <description>&lt;!-- 
 
 

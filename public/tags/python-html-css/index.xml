@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python, HTML, CSS | Hugo Academic CV Theme</title>
-    <link>http://localhost:35935/tags/python-html-css/</link>
-      <atom:link href="http://localhost:35935/tags/python-html-css/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:43259/tags/python-html-css/</link>
+      <atom:link href="http://localhost:43259/tags/python-html-css/index.xml" rel="self" type="application/rss+xml" />
     <description>Python, HTML, CSS</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:35935/media/icon_hu_645fa481986063ef.png</url>
+      <url>http://localhost:43259/media/icon_hu_645fa481986063ef.png</url>
       <title>Python, HTML, CSS</title>
-      <link>http://localhost:35935/tags/python-html-css/</link>
+      <link>http://localhost:43259/tags/python-html-css/</link>
     </image>
     
     <item>
       <title>Auto ML</title>
-      <link>http://localhost:35935/project/auto_ml/</link>
+      <link>http://localhost:43259/project/auto_ml/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:35935/project/auto_ml/</guid>
+      <guid>http://localhost:43259/project/auto_ml/</guid>
       <description>&lt;p&gt;AutoML, or Automated Machine Learning, is a project that focuses on streamlining the process of building machine learning models.
 The ability to automatically train, tune and deploy a model allows businesses to gain actionable insights from data and make better decisions faster.&lt;/p&gt;</description>
     </item>
