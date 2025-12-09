@@ -5,6 +5,10 @@ interests:
   - Computational Neuroscience
   - MLOps
 
+button:
+  text: "View resume"
+  url: "/uploads/resume.pdf"
+
 
 education:
   - area: MS Computer Science & Software Engineering
