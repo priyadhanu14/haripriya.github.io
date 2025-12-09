@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Retrieval | Hugo Academic CV Theme</title><link>https://example.com/tags/retrieval/</link><atom:link href="https://example.com/tags/retrieval/index.xml" rel="self" type="application/rss+xml"/><description>Retrieval</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://example.com/media/icon_hu_645fa481986063ef.png</url><title>Retrieval</title><link>https://example.com/tags/retrieval/</link></image><item><title>LitSense: Semantic Literature Recommendation System</title><link>https://example.com/project/litsense/</link><pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate><guid>https://example.com/project/litsense/</guid><description>&lt;p&gt;Sep 2025 - Oct 2025&lt;/p&gt;
+&lt;p&gt;Developed a content-based semantic literature recommender using a large language model for embedding generation and FAISS for fast nearest-neighbor retrieval. The tool supports multilingual queries and genre filters.&lt;/p&gt;
+&lt;p&gt;Highlights:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Approach:&lt;/strong&gt; Generated dense embeddings using an LLM (GPT-3.5 embeddings / similar) and indexed papers with FAISS for sub-second retrieval over the corpus.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Evaluation:&lt;/strong&gt; Manual precision evaluation reported ~95% relevance in top-5 results (human-evaluated on a curated validation set).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Features:&lt;/strong&gt; Genre filters, multilingual query support (via LLM prompt templates), and similarity scoring thresholds for fine-grained ranking.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Deployment:&lt;/strong&gt; Hosted as a Hugging Face Space for interactive demos; repo and demo linked in the external link. Tracking experiments and hyperparameters with Weights &amp;amp; Biases.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Demo:
+&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>FastAPI | Hugo Academic CV Theme</title><link>https://example.com/tags/fastapi/</link><atom:link href="https://example.com/tags/fastapi/index.xml" rel="self" type="application/rss+xml"/><description>FastAPI</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Dec 2025 00:00:00 +0000</lastBuildDate><image><url>https://example.com/media/icon_hu_645fa481986063ef.png</url><title>FastAPI</title><link>https://example.com/tags/fastapi/</link></image><item><title>MLOps Deployment Demo — Model Serving &amp; Tracking</title><link>https://example.com/project/mlops_deployment_demo/</link><pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate><guid>https://example.com/project/mlops_deployment_demo/</guid><description>&lt;p&gt;A small end-to-end demo demonstrating model training, experiment tracking (MLflow), containerized serving, and a minimal monitoring checklist.&lt;/p&gt;
+&lt;p&gt;Highlights:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Training script logs experiments to MLflow and saves a serialized model artifact.&lt;/li&gt;
+&lt;li&gt;A FastAPI-based prediction service loads the model artifact and exposes a &lt;code&gt;/predict&lt;/code&gt; endpoint.&lt;/li&gt;
+&lt;li&gt;Dockerfile included for reproducible container builds and deployment; example &lt;code&gt;docker-compose.yml&lt;/code&gt; demonstrates running MLflow server + model service.&lt;/li&gt;
+&lt;li&gt;CI/CD notes: a GitHub Actions workflow example is included to show how to build, test, and publish the Docker image.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Repository scaffold (created under &lt;code&gt;/project_demo_mlops&lt;/code&gt;): simple &lt;code&gt;train.py&lt;/code&gt;, &lt;code&gt;serve.py&lt;/code&gt; (FastAPI), &lt;code&gt;Dockerfile&lt;/code&gt;, &lt;code&gt;requirements.txt&lt;/code&gt;, and &lt;code&gt;README.md&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Demo repo:
+&lt;/p&gt;</description></item></channel></rss>

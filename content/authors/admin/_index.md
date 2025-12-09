@@ -1,55 +1,4 @@
 ---
-work:
-  - position: Graduate ML Researcher
-    company_name: Intelligent Networks Lab, University of Washington Bothell
-    company_url: "https://depts.washington.edu/biocomp/"
-    date_start: 2024-01-01
-    date_end: 2025-08-22
-    summary: |2-
-      - **Research focus:** Developed Graph Neural Network models for spike-train analysis using the PyTorch ecosystem (PyTorch, PyTorch Geometric, PyTorch Lightning).\
-      - **Dataset & scale:** Processed and analyzed >5M temporal events across 500+ neurons (held-out test splits used for evaluation).\
-      - **Model performance:** Achieved 90% burst-trigger pattern detection accuracy (≈12% absolute improvement over RNN baselines); strong precision/recall trade-offs observed on held-out test sets.\
-      - **Systems & tooling:** Implemented optimized data loaders, mixed-precision training, and model checkpointing with PyTorch Lightning; used Dask and multiprocessing for parallel ETL, reducing preprocessing latency by ~50%.\
-      - **Explainability & collaboration:** Integrated SHAP and attention-based explanations for model interpretability, enabling actionable insights for neuroscience collaborators.\
-      - **Dissemination:** Thesis published in ProQuest; manuscript in preparation and submitted for IJCNN (WCCI) 2026 review.
-
-  - position: Machine Learning Engineer Intern
-    company_name: Renault Nissan Technology & Business Centre India
-    company_url: "https://rntbci.in/"
-    date_start: 2021-09-01
-    date_end: 2022-03-31
-    summary: |2-
-      - **Model Development:** Built Decision Tree and Random Forest ensemble models on >10K sensor telemetry records (engine, temperature, vibration signals).
-      - **Validation & Metrics:** Used stratified 5-fold cross-validation and a held-out test set; model achieved **ROC-AUC 0.95** and **Average Precision ≈ 0.92** on holdout data.
-      - **Performance Impact:** Delivered a 25% improvement in diagnostic prediction rates (reduction in false negatives), enabling earlier identification of potential defects.
-      - **Deployment & Production Details:** Containerized model with Docker and integrated into the QA batch-inference pipeline; nightly runs produced alerts that prevented faulty vehicles from reaching final testing. Logs and model outputs were archived for traceability.
-      
-  - position: Web Development Engineer Intern
-    company_name: Loyola‑ICAM College of Engineering & Technology
-    company_url: "https://licet.ac.in/"
-    date_start: 2021-08-01
-    date_end: 2022-09-01
-    summary: |2-
-      - **Database Optimization:** Designed SQL indexing strategy reducing query latency by 40% for 10K+ student records\
-      - **Full-Stack Implementation:** React/Node.js/Express portal supporting 5000+ concurrent users\
-      - **Learning:** Early exposure to database design patterns and web application scalability
-
-  - position: Teaching Assistant – Java & Data Structures
-    company_name: University of Washington Bothell
-    company_url: "https://www.uwb.edu"
-    company_logo: ""
-    date_start: 2024-09-01
-    date_end: ""        # present
-    summary: |2-
-      - **Course:** Computer Programming in Java & Advanced Data Structures Lab (CS 147/247)\
-      - **Impact:** Mentored 80+ students in fundamental algorithms, concurrent programming, and system design\
-      - **Teaching Tools:** Developed Java assignment rubrics, code review guidelines; conducted office hours for 40+ students\
-      - **Technical Focus:** Hands-on instruction in parallel algorithms, debugging techniques, and competitive programming concepts
-  # - icon: academicons/google-scholar
-  #   url: https://scholar.google.com/
-  # - icon: academicons/orcid
-  #   url: https://orcid.org/
-
 interests:
   - Artificial Intelligence / Machine Learning
   - Explainable AI
@@ -61,7 +10,7 @@ education:
   - area: MS Computer Science & Software Engineering
     institution: University of Washington Bothell
     date_start: 2023-09-20
-    date_end: "Expected August 2025"         # program end on I-20
+    date_end: 2025-08-22         # program end on I-20
     summary: |
       **Thesis** – *Graph Neural Networks for Burst-Trigger Pattern Detection in Large-Scale Spike-Train Data*  
       • **Status:** Expected graduation August 2025; thesis archived in ProQuest (University of Washington).  
@@ -90,7 +39,7 @@ work:
     company_url: "https://www.uwb.edu"
     company_logo: ""
     date_start: 2024-09-01
-    date_end: ""        # present
+    date_end: 2025-08-22        # present (use ISO date for Hugo parsing)
     summary: |2-
       - Computer Programming in JAVA
       - Conduct weekly lab sessions, grading, and one-on-one tutoring for ~80 students

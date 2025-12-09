@@ -5,7 +5,8 @@ external_link: https://github.com/priyadhanu14/GNN-Spiking-Neural-Networks
 tags:
   - PyTorch Geometric, Graph neural Networks, spatio-temporal analysis
 featured: true
-image: /media/neural_graph_demo.svg
+image:
+  filename: "/media/neural_graph_demo.svg"
 
 ---
 

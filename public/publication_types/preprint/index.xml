@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Preprint | Hugo Academic CV Theme</title><link>https://example.com/publication_types/preprint/</link><atom:link href="https://example.com/publication_types/preprint/index.xml" rel="self" type="application/rss+xml"/><description>Preprint</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><image><url>https://example.com/media/icon_hu_645fa481986063ef.png</url><title>Preprint</title><link>https://example.com/publication_types/preprint/</link></image><item><title>Neural Brain Graph Analysis for Burst-Trigger Pattern Detection (Thesis / Preprint)</title><link>https://example.com/publication/preprint/neural-graph-analysis/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://example.com/publication/preprint/neural-graph-analysis/</guid><description>&lt;p&gt;&lt;strong&gt;Status:&lt;/strong&gt; Thesis archived in ProQuest; manuscript submitted to IJCNN (WCCI) 2026 for peer review. A reproducible codebase and evaluation notebooks are available at the linked repository.&lt;/p&gt;
+&lt;p&gt;Abstract: |
+We present a graph-based method for identifying burst-trigger patterns in large-scale spike-train recordings. The approach models neurons and short temporal windows as graph nodes and uses message-passing GNNs to detect coordinated burst events. Experiments on datasets totaling over 5M temporal events across 500+ recorded neurons show 90% detection accuracy and F1≈0.88, improving ≈12 percentage points over RNN baselines. The pipeline includes parallel ETL (Dask), mixed-precision training (PyTorch Lightning), and experiment tracking (Weights &amp;amp; Biases / MLflow) to ensure reproducibility and scalability.&lt;/p&gt;
+&lt;p&gt;Methods &amp;amp; Resources:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Code:
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Thesis: University of Washington ProQuest archive (available on request)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Dataset: Experimental spike-train recordings (processed); contact for access&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Video demo (short): &lt;code&gt;/media/thesis_demo_thumbnail.svg&lt;/code&gt; &lt;!-- Replace with YouTube or mp4 when available --&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- Add links to PDFs, slides, poster or supplemental materials below if desired --&gt;</description></item></channel></rss>

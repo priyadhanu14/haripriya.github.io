@@ -9,7 +9,8 @@ tags:
   - Deployment
   - FastAPI
 featured: true
-image: /media/mlops_demo.svg
+image:
+  filename: "/media/mlops_demo.svg"
 ---
 
 A small end-to-end demo demonstrating model training, experiment tracking (MLflow), containerized serving, and a minimal monitoring checklist.

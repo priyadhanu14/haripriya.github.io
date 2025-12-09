@@ -9,7 +9,8 @@ tags:
   - Agentic AI
   - Production
 featured: true
-image: /media/multi_agent_demo.svg
+image:
+  filename: "/media/multi_agent_demo.svg"
 
 ---
 

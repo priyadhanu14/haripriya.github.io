@@ -1,58 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Projects | Hugo Academic CV Theme</title>
-    <link>http://localhost:1313/project/</link>
-      <atom:link href="http://localhost:1313/project/index.xml" rel="self" type="application/rss+xml" />
-    <description>Projects</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
-      <title>Projects</title>
-      <link>http://localhost:1313/project/</link>
-    </image>
-    
-    <item>
-      <title>Neural Brain graph analysis for Burst trigger pattern</title>
-      <link>http://localhost:1313/project/neural_graph/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/neural_graph/</guid>
-      <description>&lt;p&gt;Developed a sub-graph classifier using Graph Neural Networks that identifies network burst patterns with an 90 % detection accuracy.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Vulnerability Detection in Software Code using Deep Neural Network</title>
-      <link>http://localhost:1313/project/vul_detection/</link>
-      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/vul_detection/</guid>
-      <description>&lt;p&gt;Vulnerability detection system is a web-based product that was built using python flask and Convolutional Neural Networks (CNN). It focuses on accurately identifying 10+ vulnerability classes in software code.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Automated Laboratory Test Analysis using Deep Learning</title>
-      <link>http://localhost:1313/project/alta/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/alta/</guid>
-      <description>&lt;p&gt;Automated Lab-Insight Platform – a diagnostic-support tool that streamlines laboratory workflows and cuts reporting time. The web dashboard ingests test results, auto-generates regulatory-compliant reports, and stores them in a unified repository. Built-in models flag medication-order anomalies and deliver high-accuracy screening for glaucoma and Alzheimer’s, helping clinicians catch errors early and ensure safer, faster diagnoses.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>College Portal</title>
-      <link>http://localhost:1313/project/college_portal/</link>
-      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/college_portal/</guid>
-      <description>&lt;p&gt;Student Portal provides a simple interface for the maintenance of student information that can be used by our college to maintain the records of students easily.
-Apart from storing the general information about a student, the student portal provides options for recording activities undertaken by the student such as internships, sports activities and so on. Different reports and queries can be generated based on vast options related to students, batch, course, faculty, exams, certification and even the entire college.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Auto ML</title>
-      <link>http://localhost:1313/project/auto_ml/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/auto_ml/</guid>
-      <description>&lt;p&gt;AutoML, or Automated Machine Learning, is a project that focuses on streamlining the process of building machine learning models.
-The ability to automatically train, tune and deploy a model allows businesses to gain actionable insights from data and make better decisions faster.&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects | Hugo Academic CV Theme</title><link>https://example.com/project/</link><atom:link href="https://example.com/project/index.xml" rel="self" type="application/rss+xml"/><description>Projects</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Dec 2025 00:00:00 +0000</lastBuildDate><image><url>https://example.com/media/icon_hu_645fa481986063ef.png</url><title>Projects</title><link>https://example.com/project/</link></image><item><title>MLOps Deployment Demo — Model Serving &amp; Tracking</title><link>https://example.com/project/mlops_deployment_demo/</link><pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate><guid>https://example.com/project/mlops_deployment_demo/</guid><description>&lt;p&gt;A small end-to-end demo demonstrating model training, experiment tracking (MLflow), containerized serving, and a minimal monitoring checklist.&lt;/p&gt;
+&lt;p&gt;Highlights:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Training script logs experiments to MLflow and saves a serialized model artifact.&lt;/li&gt;
+&lt;li&gt;A FastAPI-based prediction service loads the model artifact and exposes a &lt;code&gt;/predict&lt;/code&gt; endpoint.&lt;/li&gt;
+&lt;li&gt;Dockerfile included for reproducible container builds and deployment; example &lt;code&gt;docker-compose.yml&lt;/code&gt; demonstrates running MLflow server + model service.&lt;/li&gt;
+&lt;li&gt;CI/CD notes: a GitHub Actions workflow example is included to show how to build, test, and publish the Docker image.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Repository scaffold (created under &lt;code&gt;/project_demo_mlops&lt;/code&gt;): simple &lt;code&gt;train.py&lt;/code&gt;, &lt;code&gt;serve.py&lt;/code&gt; (FastAPI), &lt;code&gt;Dockerfile&lt;/code&gt;, &lt;code&gt;requirements.txt&lt;/code&gt;, and &lt;code&gt;README.md&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Demo repo:
+&lt;/p&gt;</description></item><item><title>Multi-Agent Conversational AI for Restaurant Ordering</title><link>https://example.com/project/multi_agent_restaurant_chatbot/</link><pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate><guid>https://example.com/project/multi_agent_restaurant_chatbot/</guid><description>&lt;p&gt;Nov 2025 - Dec 2025&lt;/p&gt;
+&lt;p&gt;Engineered an end-to-end multi-agent conversational AI system using the OpenAI Agent SDK and Python to enable natural-language restaurant menu browsing and order placement.&lt;/p&gt;
+&lt;p&gt;Highlights:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Agent architecture:&lt;/strong&gt; Designed an orchestration layer with specialized agents for menu recommendations, order validation, inventory checking, and payment processing. The orchestrator routes user intents to the appropriate agent and maintains conversational context.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Backend &amp;amp; persistence:&lt;/strong&gt; Implemented PostgreSQL integration for persistent order management, menu and inventory storage, and order history. Real-time inventory tracking ensured correct availability during the ordering flow.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tech stack:&lt;/strong&gt; OpenAI Agent SDK, Python (FastAPI for API layer), PostgreSQL (psycopg2 / SQLAlchemy), Redis for ephemeral session state, Docker for containerization.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Production readiness:&lt;/strong&gt; Containerized services, designed logging and observability, and demonstrated agentic patterns for modular, testable agent components suitable for deployment.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reproducibility:&lt;/strong&gt; Code and deployment instructions available on GitHub; includes Dockerfiles and example Postgres schema.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Repository:
+&lt;/p&gt;</description></item><item><title>LitSense: Semantic Literature Recommendation System</title><link>https://example.com/project/litsense/</link><pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate><guid>https://example.com/project/litsense/</guid><description>&lt;p&gt;Sep 2025 - Oct 2025&lt;/p&gt;
+&lt;p&gt;Developed a content-based semantic literature recommender using a large language model for embedding generation and FAISS for fast nearest-neighbor retrieval. The tool supports multilingual queries and genre filters.&lt;/p&gt;
+&lt;p&gt;Highlights:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Approach:&lt;/strong&gt; Generated dense embeddings using an LLM (GPT-3.5 embeddings / similar) and indexed papers with FAISS for sub-second retrieval over the corpus.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Evaluation:&lt;/strong&gt; Manual precision evaluation reported ~95% relevance in top-5 results (human-evaluated on a curated validation set).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Features:&lt;/strong&gt; Genre filters, multilingual query support (via LLM prompt templates), and similarity scoring thresholds for fine-grained ranking.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Deployment:&lt;/strong&gt; Hosted as a Hugging Face Space for interactive demos; repo and demo linked in the external link. Tracking experiments and hyperparameters with Weights &amp;amp; Biases.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Demo:
+&lt;/p&gt;</description></item><item><title>Neural Brain graph analysis for Burst trigger pattern</title><link>https://example.com/project/neural_graph/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://example.com/project/neural_graph/</guid><description>&lt;p&gt;Status: Completed (Thesis project). Manuscript submitted to IJCNN (WCCI) 2026; thesis available on ProQuest.&lt;/p&gt;
+&lt;p&gt;Developed a sub-graph classifier using Graph Neural Networks that identifies network burst patterns with a 90% detection accuracy.&lt;/p&gt;
+&lt;p&gt;Key details:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Dataset &amp;amp; scale:&lt;/strong&gt; Processed and analyzed &amp;gt;5M temporal events collected from 500+ neurons across multiple experimental sessions (preprocessed and stored on S3-compatible storage).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Model &amp;amp; tooling:&lt;/strong&gt; Implemented using PyTorch, PyTorch Geometric and PyTorch Lightning. Data preprocessing and parallel ETL pipelines built with Dask and Python multiprocessing.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MLOps &amp;amp; tracking:&lt;/strong&gt; Experiment tracking with Weights &amp;amp; Biases and MLflow; model checkpointing and mixed-precision training for faster iterations.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Performance:&lt;/strong&gt; 90% detection accuracy on held-out test sets; F1 ≈ 0.88; ~12% absolute improvement over RNN baselines (same training/validation splits).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Systems impact:&lt;/strong&gt; Parallelized pipeline reduced preprocessing time from ~3 hours to ~1.5 hours on multi-node runs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reproducibility:&lt;/strong&gt; Code, trained checkpoints and evaluation notebooks available in the repository linked above; Dockerfile included for reproducible environments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Comparison to baselines: evaluated against standard RNN and CNN baselines (same feature pipeline); GNNs produced superior temporal-spatial pattern detection, especially for multi-neuron coordinated bursts.&lt;/p&gt;
+&lt;!--more--&gt;</description></item><item><title>Vulnerability Detection in Software Code using Deep Neural Network</title><link>https://example.com/project/vul_detection/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><guid>https://example.com/project/vul_detection/</guid><description>&lt;p&gt;Vulnerability detection system is a web-based product that was built using python flask and Convolutional Neural Networks (CNN). It focuses on accurately identifying 10+ vulnerability classes in software code.&lt;/p&gt;</description></item><item><title>Automated Laboratory Test Analysis using Deep Learning</title><link>https://example.com/project/alta/</link><pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate><guid>https://example.com/project/alta/</guid><description>&lt;p&gt;Automated Lab-Insight Platform – a diagnostic-support tool that streamlines laboratory workflows and cuts reporting time. The web dashboard ingests test results, auto-generates regulatory-compliant reports, and stores them in a unified repository. Built-in models flag medication-order anomalies and deliver high-accuracy screening for glaucoma and Alzheimer’s, helping clinicians catch errors early and ensure safer, faster diagnoses.&lt;/p&gt;</description></item><item><title>College Portal</title><link>https://example.com/project/college_portal/</link><pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate><guid>https://example.com/project/college_portal/</guid><description>&lt;p&gt;draft: true&lt;/p&gt;
+&lt;p&gt;Student Portal provides a simple interface for the maintenance of student information that can be used by our college to maintain the records of students easily.
+Apart from storing the general information about a student, the student portal provides options for recording activities undertaken by the student such as internships, sports activities and so on. Different reports and queries can be generated based on vast options related to students, batch, course, faculty, exams, certification and even the entire college.&lt;/p&gt;</description></item><item><title>Auto ML</title><link>https://example.com/project/auto_ml/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://example.com/project/auto_ml/</guid><description>&lt;p&gt;draft: true&lt;/p&gt;
+&lt;p&gt;AutoML, or Automated Machine Learning, is a project that focuses on streamlining the process of building machine learning models.
+The ability to automatically train, tune and deploy a model allows businesses to gain actionable insights from data and make better decisions faster.&lt;/p&gt;</description></item></channel></rss>

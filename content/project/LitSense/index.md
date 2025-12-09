@@ -8,7 +8,8 @@ tags:
   - Retrieval
   - HuggingFace
 featured: true
-image: /media/litsense_demo.svg
+image:
+  filename: "/media/litsense_demo.svg"
 
 ---
 

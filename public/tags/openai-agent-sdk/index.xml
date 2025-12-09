@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenAI Agent SDK | Hugo Academic CV Theme</title><link>https://example.com/tags/openai-agent-sdk/</link><atom:link href="https://example.com/tags/openai-agent-sdk/index.xml" rel="self" type="application/rss+xml"/><description>OpenAI Agent SDK</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Dec 2025 00:00:00 +0000</lastBuildDate><image><url>https://example.com/media/icon_hu_645fa481986063ef.png</url><title>OpenAI Agent SDK</title><link>https://example.com/tags/openai-agent-sdk/</link></image><item><title>Multi-Agent Conversational AI for Restaurant Ordering</title><link>https://example.com/project/multi_agent_restaurant_chatbot/</link><pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate><guid>https://example.com/project/multi_agent_restaurant_chatbot/</guid><description>&lt;p&gt;Nov 2025 - Dec 2025&lt;/p&gt;
+&lt;p&gt;Engineered an end-to-end multi-agent conversational AI system using the OpenAI Agent SDK and Python to enable natural-language restaurant menu browsing and order placement.&lt;/p&gt;
+&lt;p&gt;Highlights:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Agent architecture:&lt;/strong&gt; Designed an orchestration layer with specialized agents for menu recommendations, order validation, inventory checking, and payment processing. The orchestrator routes user intents to the appropriate agent and maintains conversational context.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Backend &amp;amp; persistence:&lt;/strong&gt; Implemented PostgreSQL integration for persistent order management, menu and inventory storage, and order history. Real-time inventory tracking ensured correct availability during the ordering flow.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tech stack:&lt;/strong&gt; OpenAI Agent SDK, Python (FastAPI for API layer), PostgreSQL (psycopg2 / SQLAlchemy), Redis for ephemeral session state, Docker for containerization.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Production readiness:&lt;/strong&gt; Containerized services, designed logging and observability, and demonstrated agentic patterns for modular, testable agent components suitable for deployment.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reproducibility:&lt;/strong&gt; Code and deployment instructions available on GitHub; includes Dockerfiles and example Postgres schema.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Repository:
+&lt;/p&gt;</description></item></channel></rss>

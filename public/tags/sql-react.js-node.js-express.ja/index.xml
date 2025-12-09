@@ -1,25 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>SQL, React.js, Node.js, Express.ja | Hugo Academic CV Theme</title>
-    <link>http://localhost:1313/tags/sql-react.js-node.js-express.ja/</link>
-      <atom:link href="http://localhost:1313/tags/sql-react.js-node.js-express.ja/index.xml" rel="self" type="application/rss+xml" />
-    <description>SQL, React.js, Node.js, Express.ja</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
-      <title>SQL, React.js, Node.js, Express.ja</title>
-      <link>http://localhost:1313/tags/sql-react.js-node.js-express.ja/</link>
-    </image>
-    
-    <item>
-      <title>College Portal</title>
-      <link>http://localhost:1313/project/college_portal/</link>
-      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/college_portal/</guid>
-      <description>&lt;p&gt;Student Portal provides a simple interface for the maintenance of student information that can be used by our college to maintain the records of students easily.
-Apart from storing the general information about a student, the student portal provides options for recording activities undertaken by the student such as internships, sports activities and so on. Different reports and queries can be generated based on vast options related to students, batch, course, faculty, exams, certification and even the entire college.&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SQL, React.js, Node.js, Express.ja | Hugo Academic CV Theme</title><link>https://example.com/tags/sql-react.js-node.js-express.ja/</link><atom:link href="https://example.com/tags/sql-react.js-node.js-express.ja/index.xml" rel="self" type="application/rss+xml"/><description>SQL, React.js, Node.js, Express.ja</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate><image><url>https://example.com/media/icon_hu_645fa481986063ef.png</url><title>SQL, React.js, Node.js, Express.ja</title><link>https://example.com/tags/sql-react.js-node.js-express.ja/</link></image><item><title>College Portal</title><link>https://example.com/project/college_portal/</link><pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate><guid>https://example.com/project/college_portal/</guid><description>&lt;p&gt;draft: true&lt;/p&gt;
+&lt;p&gt;Student Portal provides a simple interface for the maintenance of student information that can be used by our college to maintain the records of students easily.
+Apart from storing the general information about a student, the student portal provides options for recording activities undertaken by the student such as internships, sports activities and so on. Different reports and queries can be generated based on vast options related to students, batch, course, faculty, exams, certification and even the entire college.&lt;/p&gt;</description></item></channel></rss>

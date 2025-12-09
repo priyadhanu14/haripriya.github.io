@@ -1,24 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>PyTorch Geometric, Graph Neural Networks, Spatio-Temporal Analysis | Hugo Academic CV Theme</title>
-    <link>http://localhost:1313/tags/pytorch-geometric-graph-neural-networks-spatio-temporal-analysis/</link>
-      <atom:link href="http://localhost:1313/tags/pytorch-geometric-graph-neural-networks-spatio-temporal-analysis/index.xml" rel="self" type="application/rss+xml" />
-    <description>PyTorch Geometric, Graph Neural Networks, Spatio-Temporal Analysis</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
-      <title>PyTorch Geometric, Graph Neural Networks, Spatio-Temporal Analysis</title>
-      <link>http://localhost:1313/tags/pytorch-geometric-graph-neural-networks-spatio-temporal-analysis/</link>
-    </image>
-    
-    <item>
-      <title>Neural Brain graph analysis for Burst trigger pattern</title>
-      <link>http://localhost:1313/project/neural_graph/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/neural_graph/</guid>
-      <description>&lt;p&gt;Developed a sub-graph classifier using Graph Neural Networks that identifies network burst patterns with an 90 % detection accuracy.&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PyTorch Geometric, Graph Neural Networks, Spatio-Temporal Analysis | Hugo Academic CV Theme</title><link>https://example.com/tags/pytorch-geometric-graph-neural-networks-spatio-temporal-analysis/</link><atom:link href="https://example.com/tags/pytorch-geometric-graph-neural-networks-spatio-temporal-analysis/index.xml" rel="self" type="application/rss+xml"/><description>PyTorch Geometric, Graph Neural Networks, Spatio-Temporal Analysis</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><image><url>https://example.com/media/icon_hu_645fa481986063ef.png</url><title>PyTorch Geometric, Graph Neural Networks, Spatio-Temporal Analysis</title><link>https://example.com/tags/pytorch-geometric-graph-neural-networks-spatio-temporal-analysis/</link></image><item><title>Neural Brain graph analysis for Burst trigger pattern</title><link>https://example.com/project/neural_graph/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://example.com/project/neural_graph/</guid><description>&lt;p&gt;Status: Completed (Thesis project). Manuscript submitted to IJCNN (WCCI) 2026; thesis available on ProQuest.&lt;/p&gt;
+&lt;p&gt;Developed a sub-graph classifier using Graph Neural Networks that identifies network burst patterns with a 90% detection accuracy.&lt;/p&gt;
+&lt;p&gt;Key details:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Dataset &amp;amp; scale:&lt;/strong&gt; Processed and analyzed &amp;gt;5M temporal events collected from 500+ neurons across multiple experimental sessions (preprocessed and stored on S3-compatible storage).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Model &amp;amp; tooling:&lt;/strong&gt; Implemented using PyTorch, PyTorch Geometric and PyTorch Lightning. Data preprocessing and parallel ETL pipelines built with Dask and Python multiprocessing.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MLOps &amp;amp; tracking:&lt;/strong&gt; Experiment tracking with Weights &amp;amp; Biases and MLflow; model checkpointing and mixed-precision training for faster iterations.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Performance:&lt;/strong&gt; 90% detection accuracy on held-out test sets; F1 ≈ 0.88; ~12% absolute improvement over RNN baselines (same training/validation splits).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Systems impact:&lt;/strong&gt; Parallelized pipeline reduced preprocessing time from ~3 hours to ~1.5 hours on multi-node runs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reproducibility:&lt;/strong&gt; Code, trained checkpoints and evaluation notebooks available in the repository linked above; Dockerfile included for reproducible environments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Comparison to baselines: evaluated against standard RNN and CNN baselines (same feature pipeline); GNNs produced superior temporal-spatial pattern detection, especially for multi-neuron coordinated bursts.&lt;/p&gt;
+&lt;!--more--&gt;</description></item></channel></rss>
