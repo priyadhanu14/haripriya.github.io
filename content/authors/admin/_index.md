@@ -61,11 +61,13 @@ education:
   - area: MS Computer Science & Software Engineering
     institution: University of Washington Bothell
     date_start: 2023-09-20
-    date_end: 2025-08-22         # program end on I-20
+    date_end: "Expected August 2025"         # program end on I-20
     summary: |
       **Thesis** – *Graph Neural Networks for Burst-Trigger Pattern Detection in Large-Scale Spike-Train Data*  
-      • Advisor: Prof. Michael Stiber  
-      • Coursework highlights: Parallel Programming, Computer Vision, Machine Learning, Advanced Data Structures  
+      • **Status:** Expected graduation August 2025; thesis archived in ProQuest (University of Washington).  
+      • **Advisor:** Prof. Michael Stiber  
+      • **GPA:** 3.95/4.0
+      • **Coursework highlights:** Parallel Programming, Computer Vision, Machine Learning, Advanced Data Structures, Deep Learning, Natural Language Processing, Reinforcement Learning, Distributed Systems
       • Teaching Assistant for Java & Data-Structures labs
     # button:
     #   text: "View Thesis Proposal"

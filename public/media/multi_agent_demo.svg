@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="100%" height="100%" fill="#041024" />
+  <g fill="#34d399" font-family="Arial, Helvetica, sans-serif">
+    <text x="60" y="120" font-size="48" font-weight="700">Multi-Agent Restaurant Chatbot</text>
+    <text x="60" y="180" font-size="22" fill="#a7f3d0">OpenAI Agent SDK · PostgreSQL · FastAPI</text>
+    <rect x="60" y="220" width="480" height="260" rx="12" fill="#02121f" />
+    <text x="80" y="260" font-size="18">Nov 2025 - Dec 2025</text>
+    <text x="80" y="290" font-size="18">Persistent orders: PostgreSQL</text>
+    <text x="80" y="320" font-size="18">Agent orchestration: recommendation, validation, payments</text>
+  </g>
+  <g transform="translate(600,240)" stroke="#60a5fa" stroke-width="2" fill="none">
+    <rect x="20" y="20" width="100" height="60" rx="8"/>
+    <rect x="140" y="20" width="100" height="60" rx="8"/>
+    <rect x="80" y="120" width="180" height="80" rx="10"/>
+    <path d="M120 80 L160 120"/>
+  </g>
+</svg>
