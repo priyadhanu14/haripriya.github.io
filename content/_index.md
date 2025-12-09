@@ -59,6 +59,6 @@ sections:
           - publication
         featured_only: true
     design:
-      view: article-grid
+      view: article-list
       columns: 2
 ---

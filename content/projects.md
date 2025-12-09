@@ -18,7 +18,7 @@ sections:
           - project
         featured_only: true
     design:
-      view: article-grid
+      view: article-list
       fill_image: true
       columns: 3
 
@@ -30,7 +30,7 @@ sections:
         folders:
           - project
     design:
-      view: article-grid
+      view: article-list
       fill_image: false
       columns: 3
 ---
