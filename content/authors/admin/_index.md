@@ -7,7 +7,7 @@ interests:
 
 button:
   text: "View resume"
-  url: "/uploads/resume.pdf"
+  url: "uploads/resume.pdf"
 
 
 education:
