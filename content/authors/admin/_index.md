@@ -1,46 +1,50 @@
 ---
-# Display name
-title: HARI PRIYA DHANASEKARAN
+work:
+  - position: Graduate ML Researcher
+    company_name: Intelligent Networks Lab, University of Washington Bothell
+    company_url: "https://depts.washington.edu/biocomp/"
+    date_start: 2024-01-01
+    date_end: 2025-08-22
+    summary: |2-
+      - **Research focus:** Developed Graph Neural Network models for spike-train analysis using the PyTorch ecosystem (PyTorch, PyTorch Geometric, PyTorch Lightning).\
+      - **Dataset & scale:** Processed and analyzed >5M temporal events across 500+ neurons (held-out test splits used for evaluation).\
+      - **Model performance:** Achieved 90% burst-trigger pattern detection accuracy (≈12% absolute improvement over RNN baselines); strong precision/recall trade-offs observed on held-out test sets.\
+      - **Systems & tooling:** Implemented optimized data loaders, mixed-precision training, and model checkpointing with PyTorch Lightning; used Dask and multiprocessing for parallel ETL, reducing preprocessing latency by ~50%.\
+      - **Explainability & collaboration:** Integrated SHAP and attention-based explanations for model interpretability, enabling actionable insights for neuroscience collaborators.\
+      - **Dissemination:** Thesis published in ProQuest; manuscript in preparation and submitted for IJCNN (WCCI) 2026 review.
 
-# Name pronunciation (optional)
-name_pronunciation: 
+  - position: Machine Learning Engineer Intern
+    company_name: Renault Nissan Technology & Business Centre India
+    company_url: "https://rntbci.in/"
+    date_start: 2021-09-01
+    date_end: 2022-03-31
+    summary: |2-
+      - **Model Development:** Built Decision Tree and Random Forest ensemble models on >10K sensor telemetry records (engine, temperature, vibration signals).
+      - **Validation & Metrics:** Used stratified 5-fold cross-validation and a held-out test set; model achieved **ROC-AUC 0.95** and **Average Precision ≈ 0.92** on holdout data.
+      - **Performance Impact:** Delivered a 25% improvement in diagnostic prediction rates (reduction in false negatives), enabling earlier identification of potential defects.
+      - **Deployment & Production Details:** Containerized model with Docker and integrated into the QA batch-inference pipeline; nightly runs produced alerts that prevented faulty vehicles from reaching final testing. Logs and model outputs were archived for traceability.
+      
+  - position: Web Development Engineer Intern
+    company_name: Loyola‑ICAM College of Engineering & Technology
+    company_url: "https://licet.ac.in/"
+    date_start: 2021-08-01
+    date_end: 2022-09-01
+    summary: |2-
+      - **Database Optimization:** Designed SQL indexing strategy reducing query latency by 40% for 10K+ student records\
+      - **Full-Stack Implementation:** React/Node.js/Express portal supporting 5000+ concurrent users\
+      - **Learning:** Early exposure to database design patterns and web application scalability
 
-# Full name (for SEO)
-first_name: HARI PRIYA 
-last_name: DHANASEKARAN
-
-# Status emoji
-status:
-  icon: ☕️
-
-# Is this the primary user of the site?
-superuser: true
-
-# Highlight the author in author lists? (true/false)
-highlight_name: true
-
-# Role/position/tagline
-role: Graduate Machine Learning Researcher
-
-# Organizations/Affiliations to display in Biography blox
-organizations:
-  - name: University of Washington
-    url: https://www.washington.edu/
-
-# Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
-profiles:
-  - icon: at-symbol
-    url: 'haripriyadhanasekaran14@gmail.com'
-    label: E-mail Me
-  # - icon: brands/x
-  #   url: https://twitter.com/GetResearchDev
-  # - icon: brands/instagram
-  #   url: https://www.instagram.com/
-  - icon: brands/github
-    url: https://github.com/priyadhanu14
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/haripriyadhanasekaran14/
+  - position: Teaching Assistant – Java & Data Structures
+    company_name: University of Washington Bothell
+    company_url: "https://www.uwb.edu"
+    company_logo: ""
+    date_start: 2024-09-01
+    date_end: ""        # present
+    summary: |2-
+      - **Course:** Computer Programming in Java & Advanced Data Structures Lab (CS 147/247)\
+      - **Impact:** Mentored 80+ students in fundamental algorithms, concurrent programming, and system design\
+      - **Teaching Tools:** Developed Java assignment rubrics, code review guidelines; conducted office hours for 40+ students\
+      - **Technical Focus:** Hands-on instruction in parallel algorithms, debugging techniques, and competitive programming concepts
   # - icon: academicons/google-scholar
   #   url: https://scholar.google.com/
   # - icon: academicons/orcid
@@ -93,10 +97,14 @@ work:
     company_name: Intelligent Networks Lab, University of Washington Bothell
     company_url: "https://depts.washington.edu/biocomp/"
     date_start: 2024-01-01
-    date_end: ""   # present
+    date_end: 2025-08-22
     summary: |2-
-      - Modeled an end‑to‑end ML pipeline with PyTorch & Explainable AI to study localized neural development patterns.
-      - Integrated parallelized data extraction pipeline and achieved 50% reduction in time. 
+      - **Research focus:** Developed Graph Neural Network models for spike-train analysis using the PyTorch ecosystem (PyTorch, PyTorch Geometric, PyTorch Lightning).\
+      - **Dataset & scale:** Processed and analyzed >5M temporal events across 500+ neurons (held-out test splits used for evaluation).\
+      - **Model performance:** Achieved 90% burst-trigger pattern detection accuracy (≈12% absolute improvement over RNN baselines); strong precision/recall trade-offs observed on held-out test sets.\
+      - **Systems & tooling:** Implemented optimized data loaders, mixed-precision training, and model checkpointing with PyTorch Lightning; used Dask and multiprocessing for parallel ETL, reducing preprocessing latency by ~50%.\
+      - **Explainability & collaboration:** Integrated SHAP and attention-based explanations for model interpretability, enabling actionable insights for neuroscience collaborators.\
+      - **Dissemination:** Thesis published in ProQuest; manuscript in preparation and submitted for IJCNN (WCCI) 2026 review.
 
   - position: Machine Learning Engineer Intern
     company_name: Renault Nissan Technology & Business Centre India
@@ -104,8 +112,10 @@ work:
     date_start: 2021-09-01
     date_end: 2022-03-31
     summary: |2-
-      - Analyzed raw sensor data; trained Decision Trees & Random Forest models boosting efficiency by 25 % (AUC 0.95).
-      - Optimized power consumption and engine efficiency for vehicle line.
+      - **Modeling:** Analyzed raw vehicle sensor telemetry and trained ensemble models (Decision Trees, Random Forests) on >10K records to predict component anomalies.
+      - **Metrics & Validation:** Adopted 5-fold stratified cross-validation; achieved ROC-AUC 0.95 on held-out data and high average precision, demonstrating robust detection performance.
+      - **Operationalization:** Packaged model as a Docker container and integrated into the QA pipeline for nightly batch inference; alerted engineers to flagged units, reducing downstream failure rates.
+      - **Impact:** Contributed to optimizations in power consumption and engine diagnostics by surfacing early-failure signals to the engineering team.
       
   - position: Web Development Engineer Intern
     company_name: Loyola‑ICAM College of Engineering & Technology
@@ -115,26 +125,82 @@ work:
     summary: |2-
       Co‑built a student portal (React, Node, Express, SQL) used by 5 000+ users; improved query performance for 10 k+ records.
 
-# Skills
+## Skills
 skills:
-  - name: Technical Skills
+  - name: Programming Languages
     items:
       - name: Python
-        description: "PyTorch, PyG, NumPy, Pandas"
-        percent: 90
+        description: "Expert: NumPy, Pandas, typing"
+        percent: 95
+        icon: code-bracket
+      - name: C++
+        description: "Performance-oriented code, basic systems integration"
+        percent: 60
         icon: code-bracket
       - name: Java
-        description: "Data Structures, parallel algorithms"
+        description: "Data structures, concurrent programming"
         percent: 90
         icon: code-bracket
-      - name: Machine Learning
-        description: "Linear Algebra, Supervised and Unsupervised Algorithms"
-        percent: 100
+      - name: SQL
+        description: "Query optimization, indexing, schema design"
+        percent: 85
+        icon: code-bracket
+
+  - name: ML & Deep Learning Frameworks
+    items:
+      - name: PyTorch Ecosystem
+        description: "PyTorch, PyTorch Geometric, PyTorch Lightning"
+        percent: 95
         icon: chart-network
-      - name: Deep Learning 
-        description: "Graph Neural Networks, Explainability"
+      - name: TensorFlow & JAX
+        description: "TensorFlow, Keras, JAX (working knowledge)"
+        percent: 70
+        icon: chart-network
+      - name: ML Libraries
+        description: "scikit-learn, XGBoost, LightGBM"
+        percent: 85
+        icon: chart-network
+      - name: Modern Architectures
+        description: "Transformers, Attention, Graph Neural Networks"
+        percent: 85
+        icon: chart-network
+
+  - name: MLOps & Infrastructure
+    items:
+      - name: Containerization & Orchestration
+        description: "Docker, Kubernetes (basic)"
         percent: 80
-        icon: chart-network
+        icon: server
+      - name: Experiment Tracking & Model Ops
+        description: "Weights & Biases, MLflow, model versioning"
+        percent: 80
+        icon: server
+      - name: CI/CD & Monitoring
+        description: "GitHub Actions, basic model monitoring"
+        percent: 70
+        icon: server
+
+  - name: Cloud & Distributed Systems
+    items:
+      - name: Cloud Platforms
+        description: "AWS (S3, EC2), GCP basics"
+        percent: 70
+        icon: cloud
+      - name: Distributed Computing
+        description: "Dask, Ray, Spark (basics)"
+        percent: 75
+        icon: cloud
+
+  - name: Tools & Versioning
+    items:
+      - name: Version Control
+        description: "Git, DVC (data versioning)"
+        percent: 90
+        icon: git-branch
+      - name: Dev Tools
+        description: "Bash, Make, Dockerfiles"
+        percent: 85
+        icon: code
 
   # - name: Hobbies
   #   color: "#eeac02"
@@ -193,6 +259,6 @@ languages:
 
 ## About Me
 
-Haripriya Dhanasekaran is a master’s candidate in Computer Science & Software Engineering at the University of Washington Bothell, where she builds Graph Neural Networks that learn spike-timing data to uncover burst dynamics in large-scale neural recordings. 
-Her work sits at the intersection of computational neuroscience, scalable deep learning, and has produced multi-node pipelines that cut data-processing times from hours to minutes. 
-Outside the lab, she mentors 80 + students as a Java & Data-Structures teaching assistant.
+Haripriya Dhanasekaran bridges computational neuroscience and production-scale machine learning systems. She recently completed her MS thesis at the University of Washington Bothell, where she engineered Graph Neural Network models to detect burst-trigger patterns in spike-train recordings. Her thesis-scale system processed over 5 million temporal events across 500+ neurons and achieved 90% detection accuracy (≈12% absolute improvement over RNN baselines). The project also delivered a 50% reduction in data-processing latency through multi-node, parallelized ETL pipelines.
+
+Her work uniquely combines scientific rigor (interpretable GNNs, SHAP-based explanations) with systems engineering (PyTorch, PyTorch Geometric, Dask for parallel pipelines, and model optimization). Outside research, she mentors 80+ students as a Java & Data-Structures teaching assistant.
