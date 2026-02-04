@@ -33,6 +33,7 @@ export interface Profile {
 export interface ExperienceItem {
   title: string;
   organization: string;
+  organizationUrl?: string;
   start: string; // YYYY-MM
   end?: string; // YYYY-MM | present
   summary: string;

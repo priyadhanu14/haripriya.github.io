@@ -126,11 +126,13 @@ export const siteContent: SiteContent = {
       summary: "Building backend-centric AI systems with measurable product impact."
     },
     {
-      title: "Research Engineer",
-      organization: "University Lab",
-      start: "2024-01",
+      title: "Graduate Research Assistant",
+      organization: "Biocomputing and Data Science Lab, University of Washington Bothell",
+      organizationUrl: "https://depts.washington.edu/biocomp/index.html",
+      start: "2023-09",
       end: "2024-12",
-      summary: "Focused on retrieval, evaluation workflows, and practical model experimentation."
+      summary:
+        "Contributed to lab research projects during my master’s program, focusing on data-driven experimentation and applied research engineering."
     },
     {
       title: "Bachelors in Engineering",

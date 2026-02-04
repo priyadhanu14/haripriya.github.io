@@ -105,7 +105,20 @@ export default function HomePage() {
               {content.experience.map((item) => (
                 <article key={`${item.organization}-${item.start}`} className="rounded-xl border border-line p-4">
                   <h3 className="text-lg font-bold text-text">{item.title}</h3>
-                  <p className="text-sm font-semibold text-accent">{item.organization}</p>
+                  <p className="text-sm font-semibold text-accent">
+                    {item.organizationUrl ? (
+                      <a
+                        href={item.organizationUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="focus-ring rounded-sm underline decoration-accent/50 underline-offset-2 hover:decoration-accent"
+                      >
+                        {item.organization}
+                      </a>
+                    ) : (
+                      item.organization
+                    )}
+                  </p>
                   <p className="mt-1 text-sm text-text-muted">{formatRange(item.start, item.end)}</p>
                   <p className="mt-2 text-sm text-text-muted">{item.summary}</p>
                 </article>
