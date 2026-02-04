@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 248 246 240;
+  --surface: 255 255 255;
+  --surface-muted: 242 239 231;
+  --text: 29 33 36;
+  --text-muted: 88 98 107;
+  --line: 214 210 198;
+  --accent: 16 107 122;
+  --accent-strong: 12 80 92;
+  --highlight: 238 228 186;
+  --font-body: "Manrope";
+  --font-display: "Fraunces";
+}
+
+[data-theme="dark"] {
+  --bg: 18 24 29;
+  --surface: 25 33 39;
+  --surface-muted: 34 43 50;
+  --text: 233 239 242;
+  --text-muted: 162 175 184;
+  --line: 59 73 83;
+  --accent: 84 201 218;
+  --accent-strong: 128 224 236;
+  --highlight: 72 87 47;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body), "Segoe UI", sans-serif;
+  color: rgb(var(--text));
+  background:
+    radial-gradient(circle at top right, rgb(var(--highlight) / 0.38), transparent 34%),
+    radial-gradient(circle at bottom left, rgb(var(--accent) / 0.12), transparent 28%),
+    rgb(var(--bg));
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+}
+
+.grain-overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+  background-image: radial-gradient(rgb(255 255 255 / 0.03) 0.5px, transparent 0.5px);
+  background-size: 4px 4px;
+}
+
+.section-shell {
+  @apply rounded-2xl border border-line/80 bg-surface/85 backdrop-blur-sm;
+}
+
+.focus-ring {
+  @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background;
+}
+
+.prose-copy p {
+  @apply text-text-muted;
+}
