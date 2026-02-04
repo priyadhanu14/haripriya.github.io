@@ -2,158 +2,174 @@ import type { SiteContent } from "@/lib/content/types";
 
 export const siteContent: SiteContent = {
   profile: {
-    fullName: "Haripriya",
-    headline: "Applied AI Engineer focusing in backend systems",
+    fullName: "Haripriya Dhanasekaran",
+    headline: "Applied AI Engineer | Backend Systems | Research-minded Builder",
     bioShort:
-      "I build dependable AI-enabled products with backend-first architecture and a research + engineering mindset. My work balances experimentation with production readiness.",
-    email: "you@example.com",
-    linkedin: "https://www.linkedin.com/in/your-profile",
-    github: "https://github.com/your-username",
+      "I build reliable AI products end-to-end, from experimentation to scalable backend deployment. My work blends applied research, distributed systems thinking, and production-focused engineering.",
+    email: "haripriyadhanasekaran14@gmail.com",
+    linkedin: "https://www.linkedin.com/in/haripriyadhanasekaran14",
+    github: "https://github.com/priyadhanu14",
     resumeUrl: "/resume.pdf"
   },
   work: [
     {
-      slug: "multimodal-support-assistant",
-      title: "Multimodal Support Assistant",
-      category: "project",
-      start: "2025-04",
-      end: "2025-08",
-      summary:
-        "Designed a production-ready support assistant with retrieval-augmented responses and confidence-aware routing.",
-      role: "Applied AI Engineer",
-      stack: ["Python", "FastAPI", "PostgreSQL", "Redis", "LangChain"],
-      outcomes: [
-        "Reduced median resolution time by 31% in pilot use.",
-        "Implemented fallback policies that protected answer quality under uncertain predictions."
-      ],
-      proofLinks: [
-        { label: "GitHub", url: "https://github.com/your-username/support-assistant" }
-      ],
-      confidential: false
-    },
-    {
-      slug: "adaptive-retrieval-research",
-      title: "Adaptive Retrieval for Low-Resource Queries",
-      category: "research",
-      start: "2024-09",
-      end: "2025-01",
-      summary:
-        "Investigated adaptive chunking and hybrid ranking for domain-specific retrieval quality under sparse data constraints.",
-      role: "Research Engineer",
-      stack: ["PyTorch", "SentenceTransformers", "FAISS", "Weights & Biases"],
-      outcomes: [
-        "Improved top-3 retrieval relevance by 18% over baseline.",
-        "Produced a reproducible evaluation harness for rapid ablations."
-      ],
-      proofLinks: [{ label: "Paper", url: "https://arxiv.org/abs/0000.00000" }],
-      confidential: false
-    },
-    {
-      slug: "systems-design-hackathon",
-      title: "Real-Time Incident Triage (Hackathon Winner)",
-      category: "hackathon",
-      start: "2024-02",
-      end: "2024-02",
-      summary:
-        "Built an event-stream triage service that prioritizes critical infrastructure alerts with explainable scoring.",
-      role: "Backend + ML Lead",
-      stack: ["Node.js", "Kafka", "Docker", "Scikit-learn"],
-      outcomes: [
-        "Won 1st place for reliability and practical incident response value.",
-        "Delivered end-to-end demo with dashboard and API within 36 hours."
-      ],
-      proofLinks: [{ label: "Demo", url: "https://example.com/demo" }],
-      confidential: false
-    },
-    {
-      slug: "predictive-maintenance-competition",
-      title: "Predictive Maintenance Challenge",
-      category: "competition",
-      start: "2023-10",
-      end: "2023-12",
-      summary:
-        "Built a feature-rich model pipeline to predict equipment failures using telemetry and maintenance logs.",
-      role: "Data/ML Engineer",
-      stack: ["Python", "XGBoost", "Pandas", "MLflow"],
-      outcomes: [
-        "Placed in top 8% leaderboard ranking.",
-        "Documented error analysis that improved calibration for rare failures."
-      ],
-      proofLinks: [{ label: "Certificate", url: "https://example.com/certificate" }],
-      confidential: false
-    },
-    {
-      slug: "ta-distributed-systems",
-      title: "Teaching Assistant - Distributed Systems",
-      category: "teaching",
-      start: "2022-08",
-      end: "2023-05",
-      summary:
-        "Supported course delivery for distributed systems labs, debugging sessions, and student project architecture reviews.",
-      role: "Teaching Assistant",
-      stack: ["Go", "Docker", "Kubernetes", "gRPC"],
-      outcomes: [
-        "Mentored 70+ students across labs and project checkpoints.",
-        "Introduced structured rubrics that improved project feedback consistency."
-      ],
-      proofLinks: [{ label: "Course Site", url: "https://example.edu/course" }],
-      confidential: false
-    },
-    {
-      slug: "enterprise-research-pilot",
-      title: "Enterprise Knowledge Pilot (Confidential)",
+      slug: "callsphere-voice-agent-platform",
+      title: "Voice Agent Platform for Customer Support",
       category: "project",
       start: "2025-09",
       end: "present",
       summary:
-        "Delivered a secure knowledge workflow with retrieval and policy-driven response controls for regulated internal teams.",
-      role: "Applied AI Engineer",
-      stack: ["Python", "FastAPI", "Azure", "Vector DB"],
+        "Built and shipped Python/FastAPI services powering an end-to-end voice agent pipeline (Twilio -> ASR -> LLM -> TTS) with strong reliability safeguards.",
+      role: "AI Engineer Intern, CallSphere LLC",
+      stack: ["Python", "FastAPI", "PostgreSQL", "AWS", "Docker", "LangChain", "FAISS", "OpenAI SDK"],
       outcomes: [
-        "Established audit-friendly response flow with traceability.",
-        "Defined deployment runbooks for secure operational handoff."
+        "Reduced p95 latency by 40% in internal testing while handling 1000+ concurrent calls.",
+        "Ran 50+ RAG evaluations and improved retrieval quality using embeddings, reranking, and SQL-based joins.",
+        "Improved reliability for high-throughput traffic with caching, retries, and fault isolation."
       ],
-      proofLinks: [{ label: "Public-safe Summary", url: "https://example.com/case-summary" }],
-      confidential: true
+      proofLinks: [
+        { label: "GitHub Profile", url: "https://github.com/priyadhanu14" }
+      ],
+      confidential: false
+    },
+    {
+      slug: "uw-gnn-burst-analysis",
+      title: "Scalable GNN Burst Analysis for Neural Data",
+      category: "research",
+      start: "2024-01",
+      end: "2025-08",
+      summary:
+        "Developed scalable graph-learning pipelines for 10,000+ neurons and 5TB+ HDF5 time-series data in a university research lab setting.",
+      role: "ML Researcher, University of Washington Bothell",
+      stack: ["PyTorch Geometric", "Dask", "MPI", "HDF5", "MLflow", "Linux", "GPU"],
+      outcomes: [
+        "Achieved 95% F1 on supervised neural burst analysis tasks.",
+        "Reduced pipeline processing time from ~12 hours to ~85 minutes using distributed multi-GPU workflows.",
+        "Tracked 100k+ experiment metrics across 180+ runs to improve reproducibility."
+      ],
+      proofLinks: [{ label: "Lab", url: "https://depts.washington.edu/biocomp/index.html" }],
+      confidential: false
+    },
+    {
+      slug: "renault-hvac-prediction",
+      title: "HVAC Compressor Load Prediction",
+      category: "project",
+      start: "2021-09",
+      end: "2022-03",
+      summary:
+        "Built regression models for automotive HVAC compressor load under real-world drive cycles and packaged experimentation workflows for repeatable deployment.",
+      role: "Machine Learning Engineer, Renault Nissan Technology & Business Centre",
+      stack: ["XGBoost", "Scikit-learn", "Python", "Docker", "Git"],
+      outcomes: [
+        "Reached R² of 0.914 and improved MAE by ~35% (RMSE by ~18%) over baseline approaches.",
+        "Built an internal AutoML-style experimentation workflow and saved 20+ developer hours."
+      ],
+      proofLinks: [{ label: "GitHub Profile", url: "https://github.com/priyadhanu14" }],
+      confidential: false
+    },
+    {
+      slug: "ai-vuln-detection",
+      title: "AI-Powered Vulnerability Detection",
+      category: "project",
+      start: "2025-01",
+      end: "2025-05",
+      summary:
+        "Designed an LLM-assisted secure code analysis system combining AST graph features and text context for vulnerability detection.",
+      role: "Project Lead",
+      stack: ["Hugging Face", "RAG", "LLMs", "Python", "AST Analysis"],
+      outcomes: [
+        "Reached 85% precision on CWE-style vulnerability detection datasets.",
+        "Analyzed 5,000+ LOC with under 2-second latency in benchmark flows."
+      ],
+      proofLinks: [{ label: "GitHub", url: "https://github.com/priyadhanu14" }],
+      confidential: false
+    },
+    {
+      slug: "deep-agent-system",
+      title: "Deep Agent (Multi-Agent Orchestration)",
+      category: "project",
+      start: "2024-11",
+      end: "2025-02",
+      summary:
+        "Built a multi-agent orchestration setup that parallelized web tasks and automated report generation for faster research-style workflows.",
+      role: "Project Contributor",
+      stack: ["OpenAI APIs", "Agent Orchestration", "Python"],
+      outcomes: [
+        "Orchestrated 5 parallel agents and generated 1,000+ reports in under 5 minutes.",
+        "Delivered significantly faster turnaround compared to manual baseline workflows."
+      ],
+      proofLinks: [{ label: "GitHub", url: "https://github.com/priyadhanu14" }],
+      confidential: false
+    },
+    {
+      slug: "parallel-tsp-solver",
+      title: "Parallelized TSP Solver (Distributed Optimization)",
+      category: "project",
+      start: "2024-03",
+      end: "2024-06",
+      summary:
+        "Implemented a distributed optimization solver using simulated annealing across Spark + MPI infrastructure.",
+      role: "Project Contributor",
+      stack: ["Java", "Spark", "MPI", "AWS EC2", "SSH"],
+      outcomes: [
+        "Cut compute time by ~50% on a 16-node EC2 cluster.",
+        "Demonstrated scalable performance gains for large combinatorial optimization runs."
+      ],
+      proofLinks: [{ label: "GitHub", url: "https://github.com/priyadhanu14" }],
+      confidential: false
     }
   ],
   experience: [
     {
-      title: "Applied AI Engineer",
-      organization: "Current Team / Organization",
-      start: "2025-01",
+      title: "AI Engineer Intern",
+      organization: "CallSphere LLC",
+      start: "2025-09",
       end: "present",
-      summary: "Building backend-centric AI systems with measurable product impact."
+      summary:
+        "Built scalable backend APIs and voice-agent infrastructure using FastAPI, AWS, RAG, and production-minded reliability practices."
     },
     {
-      title: "Graduate Research Assistant",
+      title: "ML Researcher",
       organization: "Biocomputing and Data Science Lab, University of Washington Bothell",
       organizationUrl: "https://depts.washington.edu/biocomp/index.html",
-      start: "2023-09",
-      end: "2024-12",
+      start: "2024-01",
+      end: "2025-08",
       summary:
-        "Contributed to lab research projects during my master’s program, focusing on data-driven experimentation and applied research engineering."
+        "Led model development and distributed experimentation for neural burst analysis, improving performance and throughput at research scale."
     },
     {
-      title: "Bachelors in Engineering",
-      organization: "Your University",
-      start: "2019-08",
-      end: "2023-05",
-      summary: "Built foundations in software systems, machine learning, and collaborative problem-solving."
+      title: "Machine Learning Engineer",
+      organization: "Renault Nissan Technology & Business Centre",
+      start: "2021-09",
+      end: "2022-03",
+      summary: "Built predictive HVAC models and repeatable ML workflows for engineering use in automotive production settings."
+    },
+    {
+      title: "Master's in Computer Science & Software Engineering",
+      organization: "University of Washington Bothell",
+      start: "2023-08",
+      end: "2025-08",
+      summary: "Graduate focus on AI systems, distributed machine learning, and production-grade software engineering."
     }
   ],
   skills: [
     "Python",
+    "Java",
     "TypeScript",
     "FastAPI",
-    "Node.js",
-    "PostgreSQL",
-    "Redis",
-    "Docker",
-    "Kubernetes",
-    "AWS/Azure",
-    "PyTorch",
+    "OpenAI SDK",
     "LangChain",
+    "RAG Systems",
+    "PyTorch Geometric",
+    "XGBoost",
+    "Scikit-learn",
+    "Dask / MPI",
+    "MLflow",
+    "AWS (EC2)",
+    "Docker",
+    "PostgreSQL",
+    "FAISS",
+    "Spark",
     "CI/CD"
   ]
 };
