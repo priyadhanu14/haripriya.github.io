@@ -1,4 +1,5 @@
 import type { SiteContent } from "@/lib/content/types";
+import { withBasePath } from "@/lib/utils/paths";
 
 export const siteContent: SiteContent = {
   profile: {
@@ -9,7 +10,7 @@ export const siteContent: SiteContent = {
     email: "haripriyadhanasekaran14@gmail.com",
     linkedin: "https://www.linkedin.com/in/haripriyadhanasekaran14",
     github: "https://github.com/priyadhanu14",
-    resumeUrl: "/resume.pdf"
+    resumeUrl: withBasePath("/resume.pdf")
   },
   work: [
     {

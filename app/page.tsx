@@ -5,6 +5,7 @@ import { SiteHeader } from "@/components/site-header";
 import { WorkCard } from "@/components/work-card";
 import { getFeaturedWork, getSiteContent, getWorkByCategory } from "@/lib/content/loader";
 import { formatRange } from "@/lib/utils/date";
+import { withBasePath } from "@/lib/utils/paths";
 
 export default function HomePage() {
   const content = getSiteContent();
@@ -45,7 +46,7 @@ export default function HomePage() {
             <div className="animate-rise">
               <div className="section-shell mx-auto max-w-sm overflow-hidden p-3">
                 <Image
-                  src="/headshot.jpg"
+                  src={withBasePath("/headshot.jpg")}
                   alt={`${content.profile.fullName} professional headshot`}
                   width={640}
                   height={760}
