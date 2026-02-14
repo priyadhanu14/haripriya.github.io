@@ -40,8 +40,8 @@ export default function HomePage() {
                 >
                   View Work
                 </a>
-                <OutboundLink href={content.profile.resumeUrl} label="resume-download">
-                  Download Resume
+                <OutboundLink href={content.profile.resumeUrl} label="resume-view">
+                  View Resume
                 </OutboundLink>
               </div>
             </div>
@@ -192,9 +192,6 @@ export default function HomePage() {
             </OutboundLink>
             <OutboundLink href={content.profile.github} label="contact-github">
               GitHub
-            </OutboundLink>
-            <OutboundLink href={content.profile.resumeUrl} label="contact-resume">
-              Resume PDF
             </OutboundLink>
           </div>
         </section>

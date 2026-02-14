@@ -8,7 +8,7 @@ export const siteContent: SiteContent = {
     bioShort:
       "I build reliable AI products end-to-end, from experimentation to scalable backend deployment. My work blends applied research, distributed systems thinking, and production-focused engineering.",
     email: "haripriyadhanasekaran14@gmail.com",
-    linkedin: "https://www.linkedin.com/in/haripriyadhanasekaran14",
+    linkedin: "https://www.linkedin.com/in/haridhanu14/",
     github: "https://github.com/priyadhanu14",
     resumeUrl: withBasePath("/resume.pdf")
   },
