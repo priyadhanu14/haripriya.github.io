@@ -11,11 +11,13 @@ interface OutboundLinkProps {
 }
 
 export function OutboundLink({ href, label, children, className }: OutboundLinkProps) {
+  const normalizedHref = href.toLowerCase();
   const isExternal =
     href.startsWith("http://") ||
     href.startsWith("https://") ||
     href.startsWith("mailto:") ||
-    href.startsWith("tel:");
+    href.startsWith("tel:") ||
+    normalizedHref.endsWith(".pdf");
 
   const handleClick = () => {
     if (typeof window !== "undefined" && typeof window.gtag === "function") {
