@@ -3,14 +3,14 @@ import { OutboundLink } from "@/components/outbound-link";
 import { SectionTitle } from "@/components/section-title";
 import { SiteHeader } from "@/components/site-header";
 import { WorkCard } from "@/components/work-card";
-import { getFeaturedWork, getSiteContent, getWorkByCategory } from "@/lib/content/loader";
+import { getFeaturedWork, getSiteContent } from "@/lib/content/loader";
 import { formatRange } from "@/lib/utils/date";
 import { withBasePath } from "@/lib/utils/paths";
 
 export default function HomePage() {
   const content = getSiteContent();
   const featured = getFeaturedWork(6);
-  const research = getWorkByCategory(["research", "publication"]);
+  const papers = content.papers;
 
   return (
     <>
@@ -113,24 +113,52 @@ export default function HomePage() {
         <section id="research" className="section-shell p-6 sm:p-8">
           <SectionTitle
             eyebrow="Research & Publications"
-            title="Research-minded engineering"
-            description="I enjoy translating experimentation into dependable implementation, with reproducible workflows and practical deployment decisions."
+            title="Publications"
           />
-          <div className="grid gap-4">
-            {research.length > 0 ? (
-              research.map((item) => (
-                <article key={item.slug} className="rounded-xl border border-line p-4">
-                  <div className="flex flex-wrap items-center justify-between gap-3">
-                    <h3 className="font-display text-2xl text-text">{item.title}</h3>
-                    <span className="text-sm font-medium text-text-muted">{formatRange(item.start, item.end)}</span>
+          <div className="grid gap-6 md:grid-cols-2">
+            {papers.map((paper, index) => {
+              const meta = [paper.venue, paper.publisher, paper.pages, paper.publishedAt]
+                .filter(Boolean)
+                .join(" • ");
+
+              return (
+                <article
+                  key={`${paper.title}-${index}`}
+                  className="grid gap-4 rounded-xl border border-line bg-surface p-4 sm:grid-cols-[140px_1fr]"
+                >
+                  <a
+                    href={paper.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="focus-ring overflow-hidden rounded-lg border border-line"
+                  >
+                    <Image
+                      src={paper.image ?? withBasePath("/paper-cover.svg")}
+                      alt={`${paper.title} cover`}
+                      width={320}
+                      height={220}
+                      className="h-full w-full object-cover"
+                    />
+                  </a>
+                  <div>
+                    <h3 className="text-lg font-bold text-text">{paper.title}</h3>
+                    {meta ? <p className="mt-2 text-xs font-semibold text-text-muted">{meta}</p> : null}
+                    <p className="mt-2 text-sm text-text-muted">{paper.authors}</p>
+                    {paper.status ? (
+                      <p className="mt-2 inline-flex rounded-full bg-surface-muted px-3 py-1 text-xs font-semibold text-text">
+                        {paper.status}
+                      </p>
+                    ) : null}
+                    <p className="mt-3 text-sm text-text-muted">{paper.description}</p>
+                    <div className="mt-4">
+                      <OutboundLink href={paper.url} label={`paper-${index}`}>
+                        Paper
+                      </OutboundLink>
+                    </div>
                   </div>
-                  <p className="mt-2 text-sm font-semibold text-accent">{item.role}</p>
-                  <p className="mt-2 text-text-muted">{item.summary}</p>
                 </article>
-              ))
-            ) : (
-              <p className="text-text-muted">Research highlights will be expanded in Phase 2 with full publication indexing.</p>
-            )}
+              );
+            })}
           </div>
         </section>
 

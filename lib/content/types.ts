@@ -39,9 +39,23 @@ export interface ExperienceItem {
   summary: string;
 }
 
+export interface Paper {
+  title: string;
+  authors: string;
+  publishedAt: string;
+  venue?: string;
+  publisher?: string;
+  pages?: string;
+  description: string;
+  url: string;
+  status?: string;
+  image?: string;
+}
+
 export interface SiteContent {
   profile: Profile;
   work: WorkItem[];
   experience: ExperienceItem[];
+  papers: Paper[];
   skills: string[];
 }

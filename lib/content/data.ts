@@ -29,26 +29,8 @@ export const siteContent: SiteContent = {
         "Improved reliability for high-throughput traffic with caching, retries, and fault isolation."
       ],
       proofLinks: [
-        { label: "GitHub Profile", url: "https://github.com/priyadhanu14" }
+        { label: "Website", url: "https://callsphere.tech/" }
       ],
-      confidential: false
-    },
-    {
-      slug: "uw-gnn-burst-analysis",
-      title: "Scalable GNN Burst Analysis for Neural Data",
-      category: "research",
-      start: "2024-01",
-      end: "2025-08",
-      summary:
-        "Developed scalable graph-learning pipelines for 10,000+ neurons and 5TB+ HDF5 time-series data in a university research lab setting.",
-      role: "ML Researcher, University of Washington Bothell",
-      stack: ["PyTorch Geometric", "Dask", "MPI", "HDF5", "MLflow", "Linux", "GPU"],
-      outcomes: [
-        "Achieved 95% F1 on supervised neural burst analysis tasks.",
-        "Reduced pipeline processing time from ~12 hours to ~85 minutes using distributed multi-GPU workflows.",
-        "Tracked 100k+ experiment metrics across 180+ runs to improve reproducibility."
-      ],
-      proofLinks: [{ label: "Lab", url: "https://depts.washington.edu/biocomp/index.html" }],
       confidential: false
     },
     {
@@ -62,10 +44,10 @@ export const siteContent: SiteContent = {
       role: "Machine Learning Engineer, Renault Nissan Technology & Business Centre",
       stack: ["XGBoost", "Scikit-learn", "Python", "Docker", "Git"],
       outcomes: [
-        "Reached R² of 0.914 and improved MAE by ~35% (RMSE by ~18%) over baseline approaches.",
+        "Reached R^2 of 0.914 and improved MAE by ~35% (RMSE by ~18%) over baseline approaches.",
         "Built an internal AutoML-style experimentation workflow and saved 20+ developer hours."
       ],
-      proofLinks: [{ label: "GitHub Profile", url: "https://github.com/priyadhanu14" }],
+      proofLinks: [{ label: "GitHub", url: "https://github.com/priyadhanu14" }],
       confidential: false
     },
     {
@@ -151,6 +133,41 @@ export const siteContent: SiteContent = {
       start: "2023-08",
       end: "2025-08",
       summary: "Graduate focus on AI systems, distributed machine learning, and production-grade software engineering."
+    }
+  ],
+  papers: [
+    {
+      title: "MRI super-resolution using generative adversarial network and discrete wavelet transform",
+      authors: "Ashwin Balasubramanian, Haripriya Dhanasekaran, Booma Raghu, Kunaraj Kumarasamy",
+      publishedAt: "2022-11-24",
+      venue: "2022 International Conference on Augmented Intelligence and Sustainable Systems (ICAISS)",
+      publisher: "IEEE",
+      pages: "1314-1318",
+      description:
+        "Combines SRGAN with discrete wavelet transforms to enhance super-resolution reconstruction by leveraging high-frequency sub-band features.",
+      url: "https://ieeexplore.ieee.org/abstract/document/10010995",
+      image: withBasePath("/paper-cover.svg")
+    },
+    {
+      title: "Understanding Neural Burst Patterns Through Graph Neural Network Explainability in Simulated Neuronal Networks",
+      authors: "Hari Priya Dhanasekaran",
+      publishedAt: "2025",
+      venue: "University of Washington",
+      description:
+        "Uses GNNs and GNNExplainer on Graphitti-simulated cortical networks to identify connectivity patterns driving burst initiation.",
+      url: "https://www.proquest.com/openview/e95c6bc4a9d43d71efde91d33a9da9e2/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      status: "Under review @ WCCI IJCNN 2026",
+      image: withBasePath("/paper-cover.svg")
+    },
+    {
+      title: "Applications of Artificial Intelligence in Manufacturing: A Review",
+      authors: "Akash Balaji, S Shreyas, Haripriya Dhanasekaran",
+      publishedAt: "2022",
+      venue: "International Journal of Trendy Research in Engineering and Technology",
+      description:
+        "Structured literature review on AI adoption in manufacturing, highlighting automation and innovation impact across the field.",
+      url: "https://www.trendytechjournals.com/ijtret/volume7/issue1-5.pdf",
+      image: withBasePath("/paper-cover.svg")
     }
   ],
   skills: [
