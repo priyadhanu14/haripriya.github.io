@@ -4,7 +4,7 @@ import { withBasePath } from "@/lib/utils/paths";
 export const siteContent: SiteContent = {
   profile: {
     fullName: "Haripriya Dhanasekaran",
-    headline: "Applied AI Engineer | Backend Systems | Research-minded Builder",
+    headline: "Applied AI Engineer & Researcher | Backend Systems",
     bioShort:
       "I build reliable AI products end-to-end, from experimentation to scalable backend deployment. My work blends applied research, distributed systems thinking, and production-focused engineering.",
     email: "haripriyadhanasekaran14@gmail.com",

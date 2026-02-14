@@ -25,7 +25,9 @@ export default function HomePage() {
         <section className="section-shell overflow-hidden p-6 sm:p-8">
           <div className="grid items-center gap-8 md:grid-cols-[1.35fr_0.9fr]">
             <div className="animate-rise">
-              <p className="text-xs font-bold uppercase tracking-[0.16em] text-accent">Applied AI Engineer</p>
+              <p className="text-xs font-bold uppercase tracking-[0.16em] text-accent">
+                Applied AI Engineer &amp; Researcher
+              </p>
               <h1 className="mt-3 font-display text-4xl leading-tight text-text sm:text-5xl lg:text-6xl">
                 {content.profile.fullName}
               </h1>
@@ -58,11 +60,48 @@ export default function HomePage() {
           </div>
         </section>
 
+        <section id="about" className="section-shell p-6 sm:p-8">
+          <SectionTitle
+            eyebrow="About"
+            title="Experience timeline"
+            description="Key milestones across research, industry, and graduate work."
+          />
+          <div className="relative">
+            <div className="absolute left-0 right-0 top-6 h-px bg-line/80" />
+            <div className="flex gap-6 overflow-x-auto pb-4 pt-2">
+              {content.experience.map((item) => (
+                <article
+                  key={`${item.organization}-${item.start}`}
+                  className="relative min-w-[240px] max-w-[280px] shrink-0 rounded-xl border border-line bg-surface p-4 pt-8"
+                >
+                  <span className="absolute left-4 top-4 h-3 w-3 rounded-full bg-accent ring-4 ring-accent/20" />
+                  <p className="text-xs font-semibold text-text-muted">{formatRange(item.start, item.end)}</p>
+                  <h3 className="mt-2 text-base font-bold text-text">{item.title}</h3>
+                  <p className="mt-1 text-sm font-semibold text-accent">
+                    {item.organizationUrl ? (
+                      <a
+                        href={item.organizationUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="focus-ring rounded-sm underline decoration-accent/50 underline-offset-2 hover:decoration-accent"
+                      >
+                        {item.organization}
+                      </a>
+                    ) : (
+                      item.organization
+                    )}
+                  </p>
+                  <p className="mt-2 text-sm text-text-muted">{item.summary}</p>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+
         <section id="work">
           <SectionTitle
             eyebrow="Featured Work"
-            title="Projects with measurable outcomes"
-            description="Curated examples from product, research, hackathons, and teaching. Each item includes your role, stack, impact, and at least one proof link."
+            title="Featured Work"
           />
           <div className="grid gap-5 md:grid-cols-2">
             {featured.map((item) => (
@@ -95,50 +134,18 @@ export default function HomePage() {
           </div>
         </section>
 
-        <section id="about" className="grid gap-5 lg:grid-cols-[1.1fr_1fr]">
-          <div className="section-shell p-6 sm:p-8">
-            <SectionTitle
-              eyebrow="Experience Snapshot"
-              title="Growth since bachelor&apos;s"
-              description="Month/year timeline for major milestones with category-first expansion planned for phase 2."
-            />
-            <div className="space-y-4">
-              {content.experience.map((item) => (
-                <article key={`${item.organization}-${item.start}`} className="rounded-xl border border-line p-4">
-                  <h3 className="text-lg font-bold text-text">{item.title}</h3>
-                  <p className="text-sm font-semibold text-accent">
-                    {item.organizationUrl ? (
-                      <a
-                        href={item.organizationUrl}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="focus-ring rounded-sm underline decoration-accent/50 underline-offset-2 hover:decoration-accent"
-                      >
-                        {item.organization}
-                      </a>
-                    ) : (
-                      item.organization
-                    )}
-                  </p>
-                  <p className="mt-1 text-sm text-text-muted">{formatRange(item.start, item.end)}</p>
-                  <p className="mt-2 text-sm text-text-muted">{item.summary}</p>
-                </article>
-              ))}
-            </div>
-          </div>
-          <div className="section-shell p-6 sm:p-8">
-            <SectionTitle
-              eyebrow="Skills & Tooling"
-              title="Engineering toolkit"
-              description="Backend-heavy foundations with practical AI system development across research and production contexts."
-            />
-            <div className="flex flex-wrap gap-2.5">
-              {content.skills.map((skill) => (
-                <span key={skill} className="rounded-full border border-line bg-surface-muted px-3 py-1.5 text-sm font-medium">
-                  {skill}
-                </span>
-              ))}
-            </div>
+        <section className="section-shell p-6 sm:p-8">
+          <SectionTitle
+            eyebrow="Skills & Tooling"
+            title="Engineering toolkit"
+            description="Backend-heavy foundations with practical AI system development across research and production contexts."
+          />
+          <div className="flex flex-wrap gap-2.5">
+            {content.skills.map((skill) => (
+              <span key={skill} className="rounded-full border border-line bg-surface-muted px-3 py-1.5 text-sm font-medium">
+                {skill}
+              </span>
+            ))}
           </div>
         </section>
 
